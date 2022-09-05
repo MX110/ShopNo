@@ -178,6 +178,7 @@ body {
 
   .main__featured-works {
     padding-top: 130px;
+    padding-bottom: 125px;
   }
 
   .main__section-subheader {
@@ -185,6 +186,20 @@ body {
   }
 
   .main__featured-works-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+/* ------------------------------- small-team ----------------------------------- */
+
+  .main__small-team {
+    background-color: #f9fbfb;
+    padding-top: 100px;
+  }
+
+  .main__small-team-images {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
