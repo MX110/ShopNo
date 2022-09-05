@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     </head>
 <body>
    <div class="shopNo">
@@ -13,23 +13,29 @@
             <!--      HEADER          -->
 
         <header class="header">
-            <div class="header__logo">
-                <img class="header__logo-image" src="./images/logo.jpg" alt="">
-            </div>
-            <h1 class="header__heading">
-                Say hello to <span>shopno!</span></br>
-                <span>Agency</span> corporate shopno theme
-            </h1>
-            <button class="header__contact-button">contact us</button>
-            <div class="header__cap">
-                <img class="header__cap-logo" src="./images/cap.jpg" alt="">
+            <div class="header__container">
+                <div class="header__logo">
+                    <img class="header__logo-image" src="./images/logo.jpg" alt="">
+                </div>
+                <div class="header__heading">
+                    <h1>
+                        Say hello to <span>shopno!</span>
+                    </h1>
+                    <h1>
+                        <span>Agency</span> corporate shopno theme
+                    </h1>
+                </div>
+                <button class="header__contact-button">contact us</button>
+                <!-- <div class="header__cap"> -->
+                    <img class="header__cap-logo" src="./images/part1_03.jpg" alt="">
+                <!-- </div> -->
             </div>
         </header>
 
 
         <!--           MAIN           -->
 
-        <main class="main">
+        <main class="main container">
             <section class="main__about">
                 <h2 class="main__section-header">ABOUT US</h2>
                 <h3 class="main__section-subheader">Lorem ipsum dolor sit amet event landing template</h3>
@@ -76,7 +82,7 @@
         </main>
 
 
-        <footer class="footer">
+        <footer class="footer container">
             <form class="footer__contact-form">
                 <div class="footer__contact-form-input">
                     <label for="name">Name</label>
@@ -107,7 +113,7 @@
             </section>
         </footer>
 
-        <div class="subfooter">
+        <div class="subfooter container">
             <h4>FOLLOW US</h4>
             <img src="./images/pinterest.jpg" alt="">
             <img src="./images/tweet.jpg" alt="">
