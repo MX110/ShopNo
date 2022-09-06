@@ -289,10 +289,85 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
   }
   .footer__contact-form {
     background-color: rgb(30, 57, 75, 0.9);
+    padding-bottom: 39px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 39px;
+    flex-basis: 60%;
+  }
+
+  .footer__contact-form-input {
+    border-bottom: 1px solid #606d76;
+    /* box-sizing: border-box; */
+    width: 100%;
+  }
+
+  .footer__contact-form-label {
+      /* position: relative; */
+      font-size: 15px;
+      font-family: "Raleway";
+      color: rgba(255, 255, 255, 0.6);
+      line-height: 3.4;
+      padding-right: 20px;
+    }
+
+    .form-input {
+      width: 80%;
+      height: 40px;
+      background-color: rgb(30, 57, 75, .1);
+      border: none;
+    }
+
+    .form-textarea {
+      width: 80%;
+      background-color: rgb(30, 57, 75, .1);
+      resize: none;
+      vertical-align: top;
+      border: none;
+      height: 120px;
+    }
+
+    .last-field-input {
+      margin-bottom: 40px;
+    }
+
+  .footer__map {
+    padding: 20px 23px;
+  }
+
+  .footer__map > p:nth-child(4) {
+    margin-bottom: 27px;
+  }
+
+  .footer__map-image {
+    margin-top: 20px;
+  }
+   
+  .footer__map-text {
+      font-size: 15px;
+      /* padding: 5px; */
+      font-family: "Raleway";
+      color: rgba(255, 255, 255, 0.702);
+      line-height: 1.6;
+    }
+
+  input:focused {
+    border: none;
+  }
+
+  .form-submit {
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #214744;
+    background-color: #6eeee4;
+    padding: 20px 38px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
   }
 
   .footer__map {
