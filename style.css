@@ -205,7 +205,6 @@
 /* ------------------------------- small-team ----------------------------------- */
 
   .main__small-team {
-    /* background-color: #f9fbfb; */
     padding-top: 100px;
   }
 
@@ -224,7 +223,6 @@
 
   .image-info {
     display: none;
-    /* transition: 1.3s; */
     position: absolute;
     width: 330px;
     height: 240px;
@@ -238,7 +236,6 @@
 
   .image-wrapper:hover .image-info {
     display: block;
-    /* transition: 1.3s; */
   }
 
   .image-info__header p {
@@ -313,12 +310,10 @@
 
   .footer__contact-form-input {
     border-bottom: 1px solid #606d76;
-    /* box-sizing: border-box; */
     width: 100%;
   }
 
   .footer__contact-form-label {
-      /* position: relative; */
       font-size: 15px;
       font-family: "Raleway";
       color: rgba(255, 255, 255, 0.6);
@@ -360,7 +355,6 @@
    
   .footer__map-text {
       font-size: 15px;
-      /* padding: 5px; */
       font-family: "Raleway";
       color: rgba(255, 255, 255, 0.702);
       line-height: 1.6;
