@@ -412,6 +412,26 @@
   } 
 
   
-
+@media screen and (max-width: 1420px) {
+  .header__cap-logo {
+    display: none;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  .header__contact-button {
+    display: block;
+    margin: 0 auto;
+  }
+  .header__heading h1 {
+    line-height: 1.0em;
+  }
+  .header__logo {
+    display: block;
+    width: 150px;
+    margin: 45px auto;
+  }
+}
   
   
