@@ -76,7 +76,22 @@
                     <h3 class="main__section-subheader">Lorem ipsum dolor sit amet event landing template</h3>
                     <div class="main__small-team-images">
                         <img src="./images/glass.jpg" alt="">
-                        <img src="./images/black.jpg" alt="">
+                        <div class="image-wrapper">
+                            <img class="small-team__image--active" src="./images/black.jpg" alt="">
+                            <div class="image-info">
+                                <div class="image-info__header">
+                                    <p class="image-info__name">al rayhan</p>
+                                    <img src="./images/slash2.jpg" alt="">
+                                    <p class="image-info__work">UI Designer</p>
+                                </div>
+                                <p class="image-info__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illo modi quae .</p>
+                                <img src="./images/facebook2.jpg" alt="">
+                                <img src="./images/twitt2.jpg" alt="">
+                                <img src="./images/mail.jpg" alt="">
+                                <img src="./images/globe2.jpg" alt="">
+                                <div class="triangle"></div>
+                            </div>
+                        </div>
                         <img src="./images/jonny.jpg" alt="">
                         <img src="./images/mcgregor.jpg" alt="">
                         <img src="./images/smile.jpg" alt="">
@@ -87,43 +102,53 @@
         </main>
 
 
-        <footer class="footer container">
-            <form class="footer__contact-form">
-                <div class="footer__contact-form-input">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <form class="footer__contact-form">
+                        <div class="footer__contact-form-input">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="footer__contact-form-input">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        <div class="footer__contact-form-input">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="footer__contact-form-input">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <input type="submit" value="SEND MESSAGE">
+                    </form>
+                    <div class="footer__map">
+                        <p>Adress line 1 </p>
+                        <p>Adress line 2</p>
+                        <p>Phone: +548 945645</p>
+                        <p>Fax: +456456 54546</p>
+                        <p>Web: www.designagency.net</p>
+                        <p>E-mail: info@designagency.net</p>
+                        <img src="./images/map.jpg" alt="">
+                    </div>
                 </div>
-                <div class="footer__contact-form-input">
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject">
-                </div>
-                <div class="footer__contact-form-input">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
-                </div>
-                <div class="footer__contact-form-input">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                </div>
-                <input type="submit" value="SEND MESSAGE">
-            </form>
-            <section class="footer__map">
-                <p>Adress line 1 </p>
-                <p>Adress line 2</p>
-                <p>Phone: +548 945645</p>
-                <p>Fax: +456456 54546</p>
-                <p>Web: www.designagency.net</p>
-                <p>E-mail: info@designagency.net</p>
-                <img src="./images/map.jpg" alt="">
-            </section>
+            </div>
         </footer>
 
-        <div class="subfooter container">
-            <h4>FOLLOW US</h4>
-            <img src="./images/pinterest.jpg" alt="">
-            <img src="./images/tweet.jpg" alt="">
-            <img src="./images/facebook.jpg" alt="">
-            <img src="./images/globe.jpg" alt="">
+        <div class="subfooter">
+            <div class="container">
+                <div class="subfooter__header">
+                    <h4>FOLLOW US</h4>
+                </div>
+                <div class="subfooter__images">
+                    <img src="./images/pinterest.jpg" alt="">
+                    <img src="./images/twitt.jpg" alt="">
+                    <img src="./images/facebook.jpg" alt="">
+                    <img src="./images/globe.jpg" alt="">
+                </div>
+            </div>
         </div>
    </div>
 </body>
