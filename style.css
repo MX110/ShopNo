@@ -210,7 +210,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.9);
   }
 
   .featured-works__modal-close {
@@ -235,6 +235,16 @@
     display: block;
     width: 80%;
     max-width: 700px;
+  }
+
+  .modal-content-active {
+    z-index: 10;
+    width: 40%;
+    height: 70%;
+    position: fixed;
+    top: 150px;
+    left: 550px;
+    margin: auto;
   }
 
 /* ------------------------------- small-team ----------------------------------- */

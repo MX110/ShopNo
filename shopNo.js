@@ -6,20 +6,22 @@ const modalImg = document.getElementById('modalImg');
 
 closeModal.onclick =function() {
     modalWindow.style.display = 'none';
+    images.forEach(image => {
+        image.classList.remove('modal-content-active');
+    })
 }
 
 
-function openModal() {
+function openModal(image) {
     modal.style.display = "block";
-    
-    // modalImg.src = this.src;
 }
 
 
 images.forEach(image => {
     image.addEventListener('click', () => {
         console.log(image);
-        openModal(modalWindow);
+        openModal();
+        image.classList.add('modal-content-active');
     })
 })
 
