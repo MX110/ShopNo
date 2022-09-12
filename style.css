@@ -244,7 +244,7 @@
     position: fixed;
     top: 150px;
     left: 550px;
-    margin: auto;
+    /* margin: auto; */
   }
 
 /* ------------------------------- small-team ----------------------------------- */
@@ -465,13 +465,20 @@
     fill: #262b2e;
   }
 
-  .subfooter__images-svg {
+  .subfooter__images-item:hover .subfooter__images-svg path {
+    /* background-color: #6eeee4; */
+    fill: #262b2e;
+  }
+
+  .subfooter__images-svg path {
     fill: #bbb8b9;
   }
 
-  .subfooter__images-svg:hover {
-    fill: black;
-  }
+  /* .subfooter__images-svg path:hover {
+    
+      fill: black;
+    
+  } */
 
   .subfooter h4 {
     font-size: 16px;
@@ -518,6 +525,9 @@
   }
   .main__about-content-text {
     padding: 10px;
+  }
+  .main__about-content-image {
+    max-width: 700px;
   }
   .main__featured-works {
     display: flex;
