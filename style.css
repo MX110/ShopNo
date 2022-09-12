@@ -449,11 +449,29 @@
     flex-direction: row;
     justify-content: center;
     padding-top: 15px;
+    gap: 10px;
   }
 
-  .subfooter__images img {
-  padding: 2px;
-}
+  .subfooter__images-item {
+    width: 45px;
+    height: 40px;
+    background-color: #424648;
+    padding-left: 14px;
+    padding-top: 10px;
+  }
+
+  .subfooter__images-item:hover {
+    background-color: #6eeee4;
+    fill: #262b2e;
+  }
+
+  .subfooter__images-svg {
+    fill: #bbb8b9;
+  }
+
+  .subfooter__images-svg:hover {
+    fill: black;
+  }
 
   .subfooter h4 {
     font-size: 16px;
