@@ -19,15 +19,7 @@ function openModal(image) {
 
 images.forEach(image => {
     image.addEventListener('click', () => {
-        console.log(image);
         openModal();
         image.classList.add('modal-content-active');
     })
 })
-
-
-
-
-
-console.log(images);
-console.log(modalImg);
